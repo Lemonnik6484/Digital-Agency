@@ -8,6 +8,8 @@ header {
     background: #29ff64;
     background: linear-gradient(90deg, #31e057 0%, #4bf470 58%, #2eda54 100%);
     width: 100%;
+
+    margin-top: 52px;
     
     -webkit-user-select: none;  /* Chrome, Safari, Opera */
     -moz-user-select: none;     /* Firefox */
@@ -19,6 +21,8 @@ header {
     position: fixed;
     left: 0;
     top: 0;
+    display: flex;
+    justify-content: space-between;
     width: calc(100% - 14px);
     padding: 7px;
     background: #33ff4e;
@@ -32,9 +36,6 @@ header {
 }
 
 #top-pages {
-    position: fixed;
-    right: 0;
-    top: 0;
     display: flex;
     justify-content: end;
 }
@@ -144,20 +145,41 @@ button {
         width: 100%;
     }
 
-    #top-pages {
-        right: 0%
-    }
-
-    /*#logo-animated#homepage {
-        content:url("./HomepageAnimation_small.svg");
-        width: 100%;
-    }*/
-}
-
-@media (max-width: 300px) {
-    #top-pages {
+    #top-bar {
         display: flex;
         flex-direction: column;
+    }
+
+    header {
+        margin-top: 79px;
+    }
+
+    #top-pages {
+        align-self: center;
+    }
+
+    .logo-animated#homepage {
+        content:url("./HomepageAnimation_small.svg");
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-animated#projects {
+        content:url("./ProjectsAnimation_small.svg");
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-animated#network {
+        content:url("./NetworkAnimation_small.svg");
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-animated#PageNotFound {
+        content:url("./404Animation_small.svg");
+        width: 100%;
+        justify-content: center;
     }
 }
 
