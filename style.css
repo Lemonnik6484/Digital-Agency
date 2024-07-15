@@ -148,10 +148,10 @@ button {
         right: 0%
     }
 
-    #logo-animated {
+    /*#logo-animated#homepage {
         content:url("./HomepageAnimation_small.svg");
         width: 100%;
-    }
+    }*/
 }
 
 @media (max-width: 300px) {

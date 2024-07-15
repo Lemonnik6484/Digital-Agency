@@ -21,7 +21,7 @@
                     dur='4600ms' fill='remove'
                     values='m0,125 h0 ; m0,125 h550 ; m0,125 h550 ; m0,125 h0' keyTimes='0;0.78260869565217;0.80434782608696;1' />
                     </path>
-    <text font-family='"Chakra Petch", monospace' fill='#000000' font-size='75'
+    <text font-family='"Chakra Petch", monospace' fill='#000000' font-size='50'
         dominant-baseline='middle'
         x='50%' text-anchor='middle'
         letter-spacing='normal'>
@@ -35,7 +35,7 @@
                     dur='4600ms' fill='remove'
                     values='m0,125 h0 ; m0,125 h550 ; m0,125 h550 ; m0,125 h0' keyTimes='0;0.78260869565217;0.80434782608696;1' />
                     </path>
-    <text font-family='"Chakra Petch", monospace' fill='#000000' font-size='75'
+    <text font-family='"Chakra Petch", monospace' fill='#000000' font-size='50'
         dominant-baseline='middle'
         x='50%' text-anchor='middle'
         letter-spacing='normal'>
