@@ -231,6 +231,15 @@ background: #2cce4f;
     #gg-sheets {
         width: 403px;
     }
+
+    #cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header#error {
+        margin-top: 60px !important;
+    }
 }
 
 .project-card {
@@ -275,4 +284,8 @@ background: #2cce4f;
     border-radius: 8px;
     height: 200px;
     width: 300px;
+}
+
+header#error {
+    margin-top: 25px;
 }
