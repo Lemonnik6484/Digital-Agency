@@ -1,0 +1,182 @@
+body{
+    background-color: #08180a;
+    margin: 0; 
+    font-family: Arial;
+}
+
+header {
+    background: #29ff64;
+    background: linear-gradient(90deg, #31e057 0%, #4bf470 58%, #2eda54 100%);
+    width: 100%;
+    
+    -webkit-user-select: none;  /* Chrome, Safari, Opera */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* Internet Explorer/Edge */
+    user-select: none;          /* Non-prefixed version, currently supported by most browsers */
+}
+
+#top-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: calc(100% - 14px);
+    padding: 7px;
+    background: #33ff4e;
+
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+
+    z-index: 2;
+}
+
+#top-pages {
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: end;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 400;
+}
+
+h1 {
+    margin: 7px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+#logo-animated {
+    margin-top: 50px;
+}
+
+.current-page {
+    text-decoration: underline !important;
+    font-weight: 500;
+}
+
+button {
+    border: 5px solid #29ff64;
+    border-radius: 3px;
+    background-color: #08180a;
+    height: 100px;
+    width: 250px;
+    margin: 20px;
+}
+
+#main-body {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#main-body a {
+    color: white;
+    text-decoration: underline;
+}
+
+.worker-div {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #33ff4e;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.worker-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.role {
+    color: #a9a9a9;
+    align-self: start;
+    margin: 0;
+}
+
+#workers {
+    margin: 15px;
+}
+
+#about-text {
+    margin: 7px;
+}
+
+#about {
+    margin: 15px;
+}
+
+@media (max-width: 850px) {
+    #main-body {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #top-pages {
+        right: 0%
+    }
+
+    #logo-animated {
+        content:url("./HomepageAnimation_small.svg");
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    #top-pages {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #08180a; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #29ff64; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #2cce4f; 
+}
