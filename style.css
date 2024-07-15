@@ -99,11 +99,12 @@ button {
 
 .worker-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     border: 5px solid #33ff4e;
     padding: 15px;
     border-radius: 15px;
     margin: 15px;
+    width: 245px;
 }
 
 .worker-text {
