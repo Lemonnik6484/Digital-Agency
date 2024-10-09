@@ -2,6 +2,7 @@ body{
     background-color: #08180a;
     margin: 0; 
     font-family: Arial;
+    overflow: scroll;
 }
 
 header {
@@ -257,6 +258,7 @@ background: #2cce4f;
 
 .card-name {
     margin: 5px;
+    color: white;
 }
 
 .card-text-container {
@@ -279,6 +281,7 @@ background: #2cce4f;
     position: relative;
     left: 5px;
     margin: 5px;
+    color: white;
 }
 
 .card-image {
@@ -289,4 +292,17 @@ background: #2cce4f;
 
 header#error {
     margin-top: 25px;
+}
+
+#archive {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+
+    -webkit-user-select: none;  /* Chrome, Safari, Opera */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* Internet Explorer/Edge */
+    user-select: none;          /* Non-prefixed version, currently supported by most browsers */
+
+
 }
