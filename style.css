@@ -93,9 +93,19 @@ button {
     justify-content: space-around;
 }
 
+.homepage {
+    flex-direction: column !important;
+}
+
 #main-body a {
     color: white;
     text-decoration: underline;
+}
+
+#workers{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
 }
 
 .worker-div {
@@ -104,8 +114,10 @@ button {
     border: 5px solid #33ff4e;
     padding: 15px;
     border-radius: 15px;
+    max-width: 250px;
     margin: 15px;
     width: 245px;
+    flex: 1;
 }
 
 .worker-text {
